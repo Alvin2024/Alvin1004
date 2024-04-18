@@ -1,0 +1,8 @@
+{
+  "Suggestions": 
+  [
+    { "percentage": 10, "description": "Standard Tip" },
+    { "percentage": 15, "description": "Good Tip" },
+    { "percentage": 20, "description": "Excellent Tip" }
+  ]
+}

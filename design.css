@@ -1,0 +1,28 @@
+html {
+    background-color: whitesmoke;
+}
+body {
+    color: brown;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+.dayend{
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+  }
+.Savebutton{
+    position: fixed;
+    bottom: 80px;
+    width:100%;
+}
+  
+

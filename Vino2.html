@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="design.css">
+        <title> Tip Calculator </title>
+    </head>
+    <body >
+        <h1>Welcome to Alvin's Tip Calculator</h1>
+    </body>
+
+    <body>
+
+        <h1>Tip Calculator</h1>
+      
+        <label for ="billamount"> Bill Amount:</label>
+        <input type ="number" id ="billamount" placeholder="Enter the total bill amount">
+      
+        <label for ="tipPercentage">Tip Percentage %:</label>
+        <input type ="number" id ="tipPercentage" placeholder="Enter the tip percentage">
+      
+        <button onclick="calculateTip()" >Calculate</button>
+
+        <div class = "dayend">
+        <button onclick = "End()" >End Day</button>
+        <button onclick="download()">Download</button>
+        </div>
+
+        <div class = "Savebutton">
+        <Button onclick = "Save()">Save</Button>
+        </div>
+
+        <div id="result"></div>
+        
+
+       <script src = "Vin.js"> </script>
+ 
+      
+      </body>
+</html>
